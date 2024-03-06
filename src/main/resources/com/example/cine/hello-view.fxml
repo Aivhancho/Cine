@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!-- Hay que separar esta linea para añadir al final el controler, que será fx:controller y pongo com. y voy siguiendo -->
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0"
+            xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="com.example.cine.CineController">
+   <children>
+      <TextField fx:id="nombretx" layoutX="208.0" layoutY="85.0" />
+      <Label layoutX="154.0" layoutY="89.0" text="Nombre" />
+      <ComboBox fx:id="generocb" layoutX="208.0" layoutY="188.0" prefWidth="150.0" />
+      <Label layoutX="109.0" layoutY="192.0" text="Género preferido" />
+      <Button layoutX="243.0" layoutY="251.0" mnemonicParsing="false" onAction="#onEnviarClick" text="enviar" />
+      <TextArea fx:id="informaciontxt" layoutX="59.0" layoutY="298.0" prefHeight="91.0" prefWidth="481.0" />
+   </children>
+</AnchorPane>
